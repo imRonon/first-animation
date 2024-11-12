@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ball {
+  background-image: url(https://image.spreadshirtmedia.net/image-server/v1/products/T1459A839PA4459PT28D185589142W9833H10000/views/1,width=800,height=800,appearanceId=839,backgroundColor=F2F2F2/football-logo-ball-for-association-logo-on-clothing-sticker.jpg);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: blue;
+  animation: ball 10s infinite;
+}
+.ball:focus {
+  position: relative;
+}
+@keyframes ball {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    transform: translate(300px, 0px) rotate(180deg);
+  }
+  20% {
+    transform: translate(300px, 200px) rotate(180deg);
+  }
+  30% {
+    transform: translate(600px, 200px) rotate(360deg);
+  }
+  40% {
+    transform: translate(600px, 400px) rotate(360deg);
+  }
+  50% {
+    transform: translate(900px, 400px) rotate(540deg);
+  }
+  60% {
+    transform: translate(900px, 600px) rotate(540deg);
+  }
+  70% {
+    transform: translate(0px, 600px) rotate(0deg);
+  }
+  80% {
+    transform: translate(0px, 700px) rotate(0deg);
+  }
+  90% {
+    transform: translate(0px, 900px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+.goal {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXxgGVY0NOGBdwIZYxPeo8rmnWX-FjBdZTOA&s);
+  background-size: 100% 105%;
+  background-repeat: no-repeat;
+  width: 450px;
+  height: 600px;
+  transform: translatex(825px);
+  opacity: 45%;
+}
+.floor {
+  background-color: green;
+  width: 100%;
+  height: 500px;
+}
+.father {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 900px;
+}
+.test-1 {
+  width: 300px;
+  height: 300px;
+  background-color: seagreen;
+  transition: all 0.3s linear;
+}
+.test-1:hover {
+  transform: translate(-100px, 100px);
+}
+.test-2 {
+  width: 300px;
+  height: 300px;
+  background-color: seagreen;
+  transition: all 0.3s linear;
+}
+.test-2:hover {
+  transform: scale(1.5, 1.5);
+}
+.test-3 {
+  width: 300px;
+  height: 300px;
+  background-color: seagreen;
+  transition: all 0.8s linear;
+}
+.test-3:hover {
+  transform: rotate(360deg);
+}
+.test-4 {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  background-color: seagreen;
+  transition: all 0.3s linear;
+}
+.test-4:hover {
+  transform: skew(0, 60deg);
+}
