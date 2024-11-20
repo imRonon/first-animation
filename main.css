@@ -15,41 +15,40 @@
 }
 .ball:focus {
   position: relative;
-
-  @keyframes ball {
-    0% {
-      transform: translate(0px, 0px) rotate(0deg);
-    }
-    10% {
-      transform: translate(300px, 0px) rotate(180deg);
-    }
-    20% {
-      transform: translate(300px, 200px) rotate(180deg);
-    }
-    30% {
-      transform: translate(600px, 200px) rotate(360deg);
-    }
-    40% {
-      transform: translate(600px, 400px) rotate(360deg);
-    }
-    50% {
-      transform: translate(900px, 400px) rotate(540deg);
-    }
-    60% {
-      transform: translate(900px, 600px) rotate(540deg);
-    }
-    70% {
-      transform: translate(0px, 600px) rotate(0deg);
-    }
-    80% {
-      transform: translate(0px, 700px) rotate(0deg);
-    }
-    90% {
-      transform: translate(0px, 900px) rotate(0deg);
-    }
-    100% {
-      transform: translate(0px, 0px) rotate(0deg);
-    }
+}
+@keyframes ball {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    transform: translate(300px, 0px) rotate(180deg);
+  }
+  20% {
+    transform: translate(300px, 200px) rotate(180deg);
+  }
+  30% {
+    transform: translate(600px, 200px) rotate(360deg);
+  }
+  40% {
+    transform: translate(600px, 400px) rotate(360deg);
+  }
+  50% {
+    transform: translate(900px, 400px) rotate(540deg);
+  }
+  60% {
+    transform: translate(900px, 600px) rotate(540deg);
+  }
+  70% {
+    transform: translate(0px, 600px) rotate(0deg);
+  }
+  80% {
+    transform: translate(0px, 700px) rotate(0deg);
+  }
+  90% {
+    transform: translate(0px, 900px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
   }
 }
 .goal {
@@ -79,7 +78,7 @@
   background-color: seagreen;
   transition: all 0.3s linear;
 }
-.test-1:focus {
+.test-1:hover {
   transform: translate(-100px, 100px);
 }
 .test-2 {
@@ -88,7 +87,7 @@
   background-color: seagreen;
   transition: all 0.3s linear;
 }
-.test-2:focus {
+.test-2:hover {
   transform: scale(1.5, 1.5);
 }
 .test-3 {
@@ -97,7 +96,7 @@
   background-color: seagreen;
   transition: all 0.8s linear;
 }
-.test-3:focus {
+.test-3:hover {
   transform: rotate(360deg);
 }
 .test-4 {
@@ -107,6 +106,6 @@
   background-color: seagreen;
   transition: all 0.3s linear;
 }
-.test-4:focus {
+.test-4:hover {
   transform: skew(0, 60deg);
 }
